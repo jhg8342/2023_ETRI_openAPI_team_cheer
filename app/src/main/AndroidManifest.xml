@@ -2,6 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- 오디오 사용 manifest -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <!-- JSP사이트 연결용 인터넷 사용 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+        
+
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
